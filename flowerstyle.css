@@ -1,0 +1,44 @@
+.parent{
+    width:600px;
+    height:500px;
+    background-color: darkgreen; 
+    background-image: linear-gradient(to top left, coral 20%, violet 45%, deeppink 66%);
+    border: 4px solid red;
+    position: relative;
+    left: 300px;
+    right: 300px;
+    top: 300px;
+}
+.common{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    margin: 10px;
+    border-radius: 300px 0px 300px 0px;
+    position:absolute;
+    rotate: -45deg;
+    left: 130px;
+   top:-160px;
+    transition: all 10s;
+   
+}
+.parent:hover .child1{
+    rotate: -25deg;
+}
+.parent:hover .child2{
+    rotate: 0deg;
+}
+.parent:hover .child3{
+    rotate: -65deg;
+}
+.parent:hover .child4{
+    rotate: -90deg;
+}
+.box{
+    width:300px;
+    height:300px;
+    background-color: saddlebrown;
+    position: absolute;
+    left: 140px;
+    border-radius: 30px 30px 100% 100%;
+}
